@@ -18,9 +18,6 @@ package com.packpublishing.asynchronousandroid.chapter8;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import com.google.gson.Gson;
-
-import org.json.JSONObject;
 
 public class TextPlainBody  extends Body {
 
@@ -31,8 +28,6 @@ public class TextPlainBody  extends Body {
     }
 
     public String getContent() {
-        Gson gson = new Gson();
-        JSONObject object;
         return mContent;
 
     }
